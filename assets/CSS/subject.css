@@ -1,0 +1,161 @@
+/* =======================================
+   SUBJECT PAGE
+======================================= */
+
+.subject-page{
+
+    margin-top:35px;
+
+}
+
+.subject-page__header{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.subject-page__header h2{
+
+    color:#0d6efd;
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.subject-page__header p{
+
+    color:#666;
+
+}
+
+/* =======================================
+   GRID
+======================================= */
+
+.subject-page__grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:25px;
+
+}
+
+/* =======================================
+   CARD
+======================================= */
+
+.subject-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.subject-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.subject-card__icon{
+
+    background:#0d6efd;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+    font-size:45px;
+
+}
+
+.subject-card__body{
+
+    padding:25px;
+
+}
+
+.subject-card__body h3{
+
+    color:#0d6efd;
+
+    margin-bottom:10px;
+
+}
+
+.subject-card__body p{
+
+    color:#666;
+
+    line-height:1.6;
+
+}
+
+.subject-card__details{
+
+    list-style:none;
+
+    margin:20px 0;
+
+    padding:0;
+
+}
+
+.subject-card__details li{
+
+    margin-bottom:12px;
+
+    color:#444;
+
+}
+
+.subject-card__details i{
+
+    color:#0d6efd;
+
+    width:25px;
+
+}
+
+.subject-card__button{
+
+    width:100%;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    padding:14px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.subject-card__button:hover{
+
+    background:#084298;
+
+}

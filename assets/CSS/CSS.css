@@ -1,0 +1,133 @@
+/* ===========================
+   GLOBAL SETTINGS
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#eef2f7;
+
+    color:#333;
+
+}
+
+/* ===========================
+   PAGE WRAPPER
+=========================== */
+
+.oqms-page-wrapper{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:30px auto;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.oqms-header{
+
+    height:70px;
+
+    background:#0d6efd;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+    color:white;
+
+    box-shadow:0 5px 12px rgba(0,0,0,.2);
+
+}
+
+.oqms-header__logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:24px;
+
+    font-weight:600;
+
+}
+
+.oqms-header__logo i{
+
+    font-size:30px;
+
+}
+
+.oqms-header__user{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.oqms-header__user i{
+
+    font-size:24px;
+
+}
+
+.oqms-header__logout{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#dc3545;
+
+    padding:8px 16px;
+
+    border-radius:5px;
+
+    transition:.3s;
+
+}
+
+.oqms-header__logout:hover{
+
+    background:#bb2d3b;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.oqms-footer{
+
+    margin-top:50px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    text-align:center;
+
+    padding:18px;
+
+}
